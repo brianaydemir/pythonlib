@@ -45,7 +45,7 @@ def parse(data: Any, spec: Type[T]) -> T:
     try:
         return cast(T, _parse(data, spec))
     except ParseError as exn:
-        raise ParseError(f"Failed to parse {data!r} as {spec}") from exn
+        raise ParseError(f"Failed to parse {data!r} as {spec!r}") from exn
 
 
 def _parse(data: Any, spec: Any) -> Any:
