@@ -41,7 +41,7 @@ sqlite_cache = true
 
 [tool.poetry]
 name = "baydemir"
-version = "0.0.1"
+version = "1.0.0"
 description = "Brian A's idiosyncratic utilities"
 license = "Apache-2.0"
 authors = ["Brian Aydemir <brian.aydemir@gmail.com>"]
