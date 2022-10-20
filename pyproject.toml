@@ -41,7 +41,7 @@ sqlite_cache = true
 
 [tool.poetry]
 name = "baydemir"
-version = "1.0.0"
+version = "1.0.1"
 description = "Brian A's idiosyncratic utilities"
 license = "Apache-2.0"
 authors = ["Brian Aydemir <brian.aydemir@gmail.com>"]
@@ -51,7 +51,7 @@ packages = [{ include = "baydemir" }]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-PyYAML = "^6.0"
+PyYAML = ">=5.4,<7"
 
 
 [tool.poetry.dev-dependencies]
@@ -64,7 +64,7 @@ pre-commit = "~2.20"
 pylint = "~2.15"
 "ruamel.yaml.cmd" = "~0.6"
 safety = "~2.3"
-types-PyYAML = "^6.0"
+types-PyYAML = ">=5.4,<7"
 
 
 [tool.pylint.messages-control]
