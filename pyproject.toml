@@ -54,13 +54,13 @@ python = "^3.8"
 PyYAML = ">=5.4,<7"
 
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 bandit = "~1.7"
-black = "~22.10"
+black = "~22.12"
 docutils = "~0.19"
-isort = "~5.10"
-mypy = "~0.982"
-pre-commit = "~2.20"
+isort = "~5.11"
+mypy = "~0.991"
+pre-commit = "~2.21"
 pylint = "~2.15"
 "ruamel.yaml.cmd" = "~0.6"
 safety = "~2.3"

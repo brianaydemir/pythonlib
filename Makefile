@@ -11,8 +11,8 @@ all: reformat lint build
 #---------------------------------------------------------------------------
 
 reformat:
-	poetry run isort $(PY_FILES)
-	poetry run black $(PY_FILES)
+	poetry run isort -q $(PY_FILES)
+	poetry run black -q $(PY_FILES)
 
 lint:
 	-poetry run bandit -qr $(PY_FILES)
