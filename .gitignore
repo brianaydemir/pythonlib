@@ -1,10 +1,6 @@
 ## Temporary files created by vim.
 *.swp
 
-## Cache directories created by the eponymous tools.
-/.mypy/
-/.pylint/
-
 ## Configuration file for pyenv.
 /.python-version
 
