@@ -31,3 +31,4 @@ clean:
 	rm -rf .mypy_cache/
 	rm -rf dist/$(PY_WHEEL_BASENAME)-*.tar.gz
 	rm -rf dist/$(PY_WHEEL_BASENAME)-*.whl
+	-rmdir dist/
